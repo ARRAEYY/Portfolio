@@ -1,0 +1,32 @@
+*{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+#navigationbar{
+    background-color: black;
+    height: 120px;
+}
+#name{
+    text-align: center;
+    font-family:cursive;
+    font-size: 40px;
+}
+#cs{
+    text-align: center;
+    font-family:cursive;
+
+}
+
+#REF{
+    height: 415px;
+    background-color: black;
+
+}
+a{
+    margin-right: 220px;
+    display: inline;
+}
