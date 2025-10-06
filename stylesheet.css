@@ -5,6 +5,7 @@
 }
 body{
     background-color: black;
+    /* background-size: cover; if wanted to fit the background*/
 }
 #navigationbar{
     background-color: black;
