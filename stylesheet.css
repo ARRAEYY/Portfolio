@@ -210,7 +210,7 @@ section {
 
 .icon {
   cursor: pointer;
-  height: 2rem;
+  height: 2.7rem;
 }
 
 /* BUTTONS */
@@ -429,4 +429,40 @@ footer {
 
 footer p {
   text-align: center;
+}
+.iconp {
+  cursor: pointer;
+  height: 5rem;
+  margin-left: 5rem;
+
+}
+
+#social {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 50vh;
+}
+
+.social-info-upper-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  background: (250, 250, 250);
+  margin: 2rem auto;
+  padding: 0.5rem;
+}
+
+.social-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+
+.social-info-container p {
+  font-size: larger;
 }
