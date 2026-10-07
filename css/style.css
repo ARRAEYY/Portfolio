@@ -438,21 +438,6 @@ main { position: relative; z-index: 5; }
 .idcard p { font-size: 8.5px; letter-spacing: 0.12em; line-height: 1.7; color: var(--text-3); }
 .idcard--hot h3 { color: #fff; }
 
-.portrait {
-  margin-top: 34px; width: 200px; rotate: -2deg;
-  border: 1px solid var(--line-2); border-radius: 10px;
-  padding: 8px 8px 10px;
-  background: rgba(21, 21, 24, 0.6);
-  box-shadow: 0 30px 60px -30px rgba(0, 0, 0, 0.8);
-  transition: rotate 0.5s var(--ease), translate 0.5s var(--ease);
-}
-.portrait:hover { rotate: 0deg; translate: 0 -4px; }
-.portrait img {
-  width: 100%; aspect-ratio: 1/1.08; object-fit: cover; object-position: 50% 18%;
-  border-radius: 6px;
-  filter: grayscale(1) contrast(1.08) brightness(0.94);
-}
-.portrait figcaption { margin-top: 9px; font-size: 7.5px; letter-spacing: 0.18em; color: var(--text-3); }
 
 .about__dino {
   position: absolute; right: 6%; bottom: calc(var(--ground-h) - 4px); width: 46px; opacity: 0.9;
@@ -818,7 +803,6 @@ main { position: relative; z-index: 5; }
   .cloud-l--bg1 { width: 96vw; left: -26%; }
   .cloud-l--bgR { display: none; }
   .about__grid { grid-template-columns: 1fr; }
-  .portrait { width: 170px; }
   .about__dino, .about__bubble { display: none; }
   .projects__grid { grid-template-columns: 1fr; }
   .resume__grid { grid-template-columns: 1fr; }
