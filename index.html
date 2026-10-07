@@ -1,365 +1,606 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Adil Reyaz</title>
-    <link rel="stylesheet" href="stylesheet.css" />
-    <link rel="stylesheet" href="mediaqueries.css" />
-  </head>
-  <body>
-    <nav id="desktop-nav">
-      <div class="logo">Adil Reyaz</div>
-      <div>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-    <nav id="hamburger-nav">
-      <div class="logo">Adil Reyaz</div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-        </div>
-      </div>
-    </nav>
-    <section id="profile">
-      <div class="section__pic-container">
-        <img src="./assets/profile-pic.png" alt="Adil Reyaz profile picture" />
-      </div>
-      <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Adil Reyaz</h1>
-        <p class="section__text__p2">Computer Science & AI Student</p>
-        <div class="btn-container">
-          <button
-            class="btn btn-color-2"
-            onclick="window.open('./assets/resume-example.pdf')"
-          >
-            Download CV
-          </button>
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
-            Contact Info
-          </button>
-        </div>
-        <div id="socials-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="My LinkedIn profile"
-            class="icon"
-            onclick="location.href='https://www.linkedin.com/in/adil-reyaz-27829437a/'"
-          />
-          <img
-            src="./assets/github.png"
-            alt="My Github profile"
-            class="icon"
-            onclick="location.href='https://github.com/ARRAEYY'"
-          />
-          <img 
-            src="./assets/codeforces-logo.png"
-            alt="My codeforces profile"
-            class="icon"
-            onclick="location.href='https://codeforces.com/profile/a__r_'"
-          />
-          <img 
-            src="./assets/leetcode-logo.png"
-            alt="My leetcode profile"
-            class="icon"
-            onclick="location.href='https://leetcode.com/u/Adil_Reyaz/'"
-          />
-        </div>
-      </div>
-    </section>
-    <section id="about">
-      <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
-      <div class="section-container">
-        <div class="section__pic-container">
-          <img
-            src="./assets/about-pic.png"
-            alt="Profile picture"
-            class="about-pic"
-          />
-        </div>
-        <div class="about-details-container">
-          <div class="about-containers">
-            <div class="details-container">
-              <img
-                src="./assets/experience.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <h3>Experience</h3>
-              <br/>
-              <p>Experience Coming Soon</p>
-            </div>
-            <div class="details-container">
-              <img
-                src="./assets/education.png"
-                alt="Education icon"
-                class="icon"
-              />
-              <h3>Education</h3>
-              <p>Bachelors of Technology -Computer Science and Artificial Intelligence |<br />Newton School of Technology   |<br/>Rishihood University</p>
-            </div>
-          </div>
-          <div class="text-container">
-            <p>
-              I’m Adil Reyaz, a curious and passionate learner who believes in hard work and continuous growth. Always exploring new ideas and improving my skills.
-            </p>
-          </div>
-        </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#experience'"
-      />
-    </section>
-    <section id="experience">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Technical Skills</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <h2 class="experience-sub-title">Languages</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Python</h3>
-    
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>HTML</h3>
-    
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>CSS</h3>
-   
-                </div>
-              </article>
-            
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>JavaScript</h3>
-      
-                </div>
-              </article>
-            </div>
-          </div>
-          <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>React</h3>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Tailwind</h3>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#projects'"
-      />
-    </section>
-    <section id="projects">
-      <p class="section__text__p1">Browse My Recent</p>
-      <h1 class="title">Projects</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/Project-1.png"
-                alt="Project 1"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Food-Finder</h2>
-            <p>Food Finder is a responsive web application that allows users to search for meals and explore detailed recipe information, including ingredients, cooking instructions, categories, and video tutorials. It integrates with TheMealDB API, supports meal sorting, favorites using local storage, dark mode, and dynamic UI rendering to deliver an interactive food discovery experience.
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adil Reyaz — CS &amp; AI Student · Product Builder</title>
+  <meta name="description" content="Adil Reyaz — Computer Science & AI student and product builder. Code. Learn. Build. Repeat. A cinematic digital world: projects, community and curiosity." />
+  <meta name="theme-color" content="#050505" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <meta property="og:title" content="Adil Reyaz — CS & AI Student" />
+  <meta property="og:description" content="Code. Learn. Build. Repeat. — a curious builder turning ideas into real products." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Caveat:wght@600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <noscript>
+    <style>
+      .env, .try-hint { display: none !important; }
+      [data-reveal] { opacity: 1 !important; transform: none !important; }
+      .nav { transform: none !important; }
+    </style>
+  </noscript>
+</head>
+<body>
 
-<b>Tech Stack: HTML, CSS, JavaScript (ES6), Fetch API, Local Storage, and TheMealDB API.</b></p>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/ARRAEYY/Food-Finder'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://food-finder-beryl-two.vercel.app/'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/Project-2.png"
-                alt="Project 2"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">CriCode</h2>
-            <p>CriCode is a production-grade React + Tailwind dashboard that gamifies coding progress through a cricket-inspired experience. It helps users track streaks, XP, performance analytics, missions, badges, and leaderboards using an interactive and modern UI.
+  <!-- ═══════════ THE WORLD — persistent environment ═══════════ -->
+  <div class="env" aria-hidden="true">
+    <div class="env__sky"></div>
+    <div class="stars stars--far"></div>
+    <div class="moon-wrap" data-depth="0.5" data-depth-x="0.5"><div class="moon"></div></div>
 
-<b>Tech Stack: React, Vite, Tailwind CSS, React Router DOM, Recharts, and Lucide React.</b></p>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/Soysauce69/React_project'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://cricode.vercel.app/'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#contact'"
-      />
-    </section>
-    
-  </div>
-  <section id="contact">
-    <p class="section__text__p1">Get in Touch</p>
-    <h1 class="title">Contact Me</h1>
-    <div class="contact-info-upper-container">
-      <div class="contact-info-container">
-        <img
-        src="./assets/email.png"
-        alt="Email icon"
-        class="icon contact-icon email-icon"
-        />
-        <p><a href="mailto:examplemail@gmail.com"> adil.r25025@nst.rishihood.edu.in</a></p>
-      </div>
-      <div class="contact-info-container">
-        <img
-        src="./assets/linkedin.png"
-        alt="LinkedIn icon"
-        class="icon contact-icon"
-        />
-        <p><a href="https://www.linkedin.com/in/adil-reyaz-27829437a/">LinkedIn</a></p>
-      </div>
+    <!-- cloud layer 1 — background, low contrast, slowest -->
+    <div class="cloud-l cloud-l--bg1" data-depth="0.8"><img src="assets/clouds/cloud-bg-1.png" alt="" loading="lazy" decoding="async" /></div>
+    <div class="cloud-l cloud-l--bgR" data-depth="1.0"><img src="assets/clouds/cloud-bg-1.png" alt="" loading="lazy" decoding="async" /></div>
+    <!-- cloud layer 2 — midground, around moon and mountains -->
+    <div class="cloud-l cloud-l--mg1" data-depth="1.5"><img src="assets/clouds/cloud-mg-1.png" alt="" decoding="async" /></div>
+
+    <svg class="mountains mountains--far" data-depth="1.1" viewBox="0 0 1440 220" preserveAspectRatio="none">
+      <path fill="#0b0b0e" d="M0 220 L0 150 L90 92 L170 140 L260 70 L340 132 L430 84 L520 148 L610 60 L700 128 L790 88 L880 150 L980 96 L1080 142 L1170 78 L1260 134 L1350 100 L1440 150 L1440 220 Z"/>
+      <path fill="#121217" d="M610 60 L640 84 L596 92 Z M260 70 L286 92 L240 96 Z M1170 78 L1196 100 L1150 104 Z"/>
+    </svg>
+
+    <!-- cloud layer 4 — horizon haze, blends into the mountain line -->
+    <div class="cloud-l cloud-l--hz" data-depth="1.5"><img src="assets/clouds/cloud-horizon-1.png" alt="" loading="lazy" decoding="async" /></div>
+
+    <svg class="mountains mountains--near" data-depth="1.9" viewBox="0 0 1440 180" preserveAspectRatio="none">
+      <path fill="#070709" d="M0 180 L0 120 L120 70 L230 124 L330 56 L450 130 L560 84 L690 140 L800 92 L920 138 L1040 70 L1160 128 L1270 88 L1380 132 L1440 108 L1440 180 Z"/>
+    </svg>
+
+    <div class="ground" data-depth="0.35">
+      <i class="ground__horizon"></i>
+      <i class="ground__moonpath"></i>
     </div>
-    
-   </section>
-  <section id="social"> 
-     <p class="section__text__p1">Explore My</p>
-    <h1 class="title">Social Profiles</h1>
-    <div class="social-info-upper-container">
-      <div class="social-info-container">
-        <img
-          src="./assets/linkedin.png"
-          alt="My LinkedIn profile"
-          
-          class="icon contact-icon email-icon iconp"
-          onclick="location.href='https://www.linkedin.com/in/adil-reyaz-27829437a/'"
-        />
-        <img
-          src="./assets/github.png"
-          alt="My Github profile"
-          
-          class="icon contact-icon email-icon iconp"
-          onclick="location.href='https://github.com/ARRAEYY'"
-        />
-        <img 
-          src="./assets/codeforces-logo.png"
-          alt="My codeforces profile"
-          
-          class="icon contact-icon email-icon iconp"
-          onclick="location.href='https://codeforces.com/profile/a__r_'"
-        />
-        <img 
-          src="./assets/leetcode-logo.png"
-          alt="My leetcode profile"
-          
-          class="icon contact-icon email-icon iconp"
-          onclick="location.href='https://leetcode.com/u/Adil_Reyaz/'"
-        />
+
+    <svg class="cacti cacti--back" data-depth="2.4" viewBox="0 0 1440 130" fill="#0a0a0c">
+      <g transform="translate(180,26)"><rect x="14" y="0" width="12" height="104" rx="3"/><rect x="0" y="18" width="8" height="26" rx="3"/><rect x="6" y="36" width="10" height="8"/><rect x="32" y="10" width="8" height="30" rx="3"/><rect x="24" y="32" width="10" height="8"/></g>
+      <g transform="translate(660,40) scale(.7)"><rect x="14" y="0" width="12" height="104" rx="3"/><rect x="32" y="10" width="8" height="30" rx="3"/><rect x="24" y="32" width="10" height="8"/></g>
+      <g transform="translate(1180,30) scale(.9)"><rect x="14" y="0" width="12" height="104" rx="3"/><rect x="0" y="18" width="8" height="26" rx="3"/><rect x="6" y="36" width="10" height="8"/></g>
+    </svg>
+    <svg class="cacti cacti--front" data-depth="3.2" viewBox="0 0 1440 150" fill="#050506">
+      <g transform="translate(70,10) scale(1.15)"><rect x="14" y="0" width="14" height="140" rx="3"/><rect x="0" y="22" width="9" height="34" rx="3"/><rect x="7" y="48" width="10" height="8"/><rect x="36" y="14" width="9" height="38" rx="3"/><rect x="27" y="44" width="11" height="8"/></g>
+      <g transform="translate(1310,18) scale(1.05)"><rect x="14" y="0" width="14" height="132" rx="3"/><rect x="0" y="22" width="9" height="34" rx="3"/><rect x="7" y="48" width="10" height="8"/></g>
+    </svg>
+
+    <!-- cloud layer 3 — foreground, edges of the viewport -->
+    <div class="cloud-l cloud-l--fg1" data-depth="2.8"><img src="assets/clouds/cloud-fg-1.png" alt="" decoding="async" /></div>
+
+    <div class="grain"></div>
+    <div class="vignette"></div>
+  </div>
+
+  <!-- reusable pixel characters — strict grid, consistent pixel scale -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <!-- IDLE — standing, feet on baseline y=30 -->
+      <g id="px-dino">
+        <!-- tail, long, stepped rise -->
+        <rect x="8" y="13" width="5" height="8" fill="#0a0a0c"/>
+        <rect x="3" y="12" width="6" height="7" fill="#0a0a0c"/>
+        <rect x="0" y="11" width="3" height="4" fill="#0a0a0c"/>
+        <!-- body -->
+        <rect x="12" y="12" width="14" height="9" fill="#0a0a0c"/>
+        <!-- head, large block -->
+        <rect x="26" y="2" width="14" height="10" fill="#0a0a0c"/>
+        <!-- small arm -->
+        <rect x="27" y="15" width="3" height="2" fill="#0a0a0c"/>
+        <rect x="28" y="17" width="2" height="2" fill="#0a0a0c"/>
+        <!-- legs -->
+        <rect x="14" y="21" width="5" height="7" fill="#0a0a0c"/>
+        <rect x="14" y="28" width="8" height="2" fill="#0a0a0c"/>
+        <rect x="23" y="21" width="5" height="7" fill="#0a0a0c"/>
+        <rect x="23" y="28" width="8" height="2" fill="#0a0a0c"/>
+        <!-- moonlit rim tracing the top contour -->
+        <g fill="rgba(216,220,235,0.20)">
+          <rect x="0" y="11" width="3" height="1"/>
+          <rect x="3" y="12" width="5" height="1"/>
+          <rect x="8" y="13" width="5" height="1"/>
+          <rect x="12" y="12" width="14" height="1"/>
+          <rect x="26" y="2" width="14" height="1"/>
+          <rect x="39" y="3" width="1" height="8"/>
+        </g>
+        <!-- the square eye -->
+        <rect class="dino-eye" x="33" y="5" width="3" height="3" fill="#c9c9d3"/>
+        <rect class="dino-pupil" x="34" y="6" width="1" height="1" fill="#0a0a0c"/>
+      </g>
+      <!-- WALK — same character, legs mid-stride, tail level -->
+      <g id="px-dino-walk">
+        <rect x="8" y="13" width="5" height="8" fill="#0a0a0c"/>
+        <rect x="3" y="12" width="6" height="7" fill="#0a0a0c"/>
+        <rect x="0" y="11" width="3" height="4" fill="#0a0a0c"/>
+        <rect x="12" y="12" width="14" height="9" fill="#0a0a0c"/>
+        <rect x="26" y="2" width="14" height="10" fill="#0a0a0c"/>
+        <rect x="27" y="15" width="3" height="2" fill="#0a0a0c"/>
+        <rect x="28" y="17" width="2" height="2" fill="#0a0a0c"/>
+        <rect x="24" y="21" width="5" height="7" fill="#0a0a0c"/>
+        <rect x="24" y="28" width="9" height="2" fill="#0a0a0c"/>
+        <rect x="13" y="21" width="5" height="5" fill="#0a0a0c"/>
+        <rect x="10" y="26" width="7" height="2" fill="#0a0a0c"/>
+        <g fill="rgba(216,220,235,0.20)">
+          <rect x="0" y="11" width="3" height="1"/>
+          <rect x="3" y="12" width="5" height="1"/>
+          <rect x="8" y="13" width="5" height="1"/>
+          <rect x="12" y="12" width="14" height="1"/>
+          <rect x="26" y="2" width="14" height="1"/>
+          <rect x="39" y="3" width="1" height="8"/>
+        </g>
+        <rect class="dino-eye" x="33" y="5" width="3" height="3" fill="#c9c9d3"/>
+        <rect class="dino-pupil" x="34" y="6" width="1" height="1" fill="#0a0a0c"/>
+      </g>
+    </defs>
+  </svg>
+
+  <a class="skip-link mono" href="#about">Skip to content</a>
+
+  <!-- ═══════════ NAVIGATION ═══════════ -->
+  <header class="nav" id="siteNav">
+    <a class="nav__brand pix" href="#home">ADIL&nbsp;REYAZ</a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#home" data-navlink>Home</a>
+      <a href="#about" data-navlink>About</a>
+      <a href="#projects" data-navlink>Projects</a>
+      <a href="#journey" data-navlink>Experience</a>
+      <a href="#contact" data-navlink>Contact</a>
+    </nav>
+    <div class="nav__right">
+      <button class="nav__theme" id="themeToggle" type="button" aria-pressed="false" aria-label="Toggle ambient light" title="Ambient light">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.4" fill="currentColor"/><g stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M12 2.6v2.4M12 19v2.4M2.6 12h2.4M19 12h2.4M5.3 5.3l1.7 1.7M17 17l1.7 1.7M18.7 5.3 17 7M7 17l-1.7 1.7"/></g></svg>
+      </button>
+      <button class="nav__burger" id="navBurger" type="button" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu">
+        <span></span><span></span>
+      </button>
+    </div>
+    <div class="nav__menu" id="mobileMenu">
+      <a href="#home" data-navlink><i class="mono">01</i>Home</a>
+      <a href="#about" data-navlink><i class="mono">02</i>About</a>
+      <a href="#projects" data-navlink><i class="mono">03</i>Projects</a>
+      <a href="#journey" data-navlink><i class="mono">04</i>Experience</a>
+      <a href="#contact" data-navlink><i class="mono">05</i>Contact</a>
+      <p class="nav__menu-foot mono">CODE. LEARN. BUILD. REPEAT.</p>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ═══════════ 01 · HERO ═══════════ -->
+    <section class="sec hero" id="home" aria-label="Introduction">
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <p class="kicker mono" data-reveal>CS &amp; AI STUDENT</p>
+          <h1 class="hero__name pix" data-reveal>ADIL REYAZ<span class="hero__underscore">_</span></h1>
+          <p class="hero__tag" data-reveal>Code. Learn. Build. Repeat.</p>
+          <p class="hero__body" data-reveal>A curious builder who loves turning ideas into real products. Exploring the intersection of technology, design and meaningful impact.</p>
+          <div class="hero__cta" data-reveal>
+            <a class="btn btn--solid" href="#projects">View My Work
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m0 0-5.5-5.5M19 12l-5.5 5.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            <a class="btn btn--ghost" href="#contact">Get In Touch</a>
+          </div>
+        </div>
       </div>
-      </section>
-    <footer>
-      <nav>
-        <div class="nav-links-container">
-          <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+
+      <!-- floating UI near the moon -->
+      <div class="hero__floats" aria-hidden="true">
+        <div class="chipstack" data-depth="2.6">
+          <span class="chip mono">IDEAS</span>
+          <span class="chip mono">CODE</span>
+          <span class="chip mono">IMPACT</span>
+        </div>
+        <div class="codewin" data-depth="1.8">
+          <div class="codewin__bar"><i></i><i></i><i></i></div>
+          <pre class="mono">while (curiosity) {
+  build();
+  learn();
+  improve();
+}</pre>
+        </div>
+      </div>
+
+      <!-- the dinosaur, on its rock -->
+      <div class="hero__dino" aria-hidden="true">
+        <svg class="hero__dino-svg" data-depth="2.8" viewBox="0 0 40 30"><use href="#px-dino"/></svg>
+        <svg class="hero__rock" viewBox="0 0 220 46" aria-hidden="true">
+          <ellipse cx="110" cy="9" rx="56" ry="5" fill="rgba(0,0,0,0.55)"/>
+          <g fill="#0d0d10"><rect x="0" y="18" width="220" height="28"/><rect x="26" y="6" width="150" height="16"/><rect x="58" y="0" width="84" height="8"/></g>
+          <g fill="#1b1b20"><rect x="26" y="6" width="150" height="3"/><rect x="58" y="0" width="84" height="2"/></g>
+        </svg>
+      </div>
+
+      <p class="hero__anno" aria-hidden="true">Same place.<br/>Different perspective.</p>
+
+      <aside class="try-hint mono" id="tryHint" aria-hidden="true">
+        <b>TRY:</b>
+        <span>· Don't Panic</span>
+        <span>· Look Around</span>
+        <span>· Interact With Reality</span>
+      </aside>
+
+      <a class="scroll-cue mono" href="#about" aria-label="Scroll to explore">
+        <i class="scroll-cue__dot" aria-hidden="true"></i>
+        <span>SCROLL<br/>TO EXPLORE</span>
+      </a>
+    </section>
+
+    <!-- ═══════════ 02 · ABOUT ═══════════ -->
+    <section class="sec about" id="about" aria-label="About">
+      <div class="container">
+        <header class="sec-head" data-reveal>
+          <p class="kicker mono">01. ABOUT ME</p>
+          <h2 class="sec-title">Curious Learner.<br/>Builder at Heart.</h2>
+        </header>
+        <div class="about__grid">
+          <div class="about__copy" data-reveal>
+            <p>I'm Adil Reyaz, a Computer Science &amp; AI student who loves building products, exploring new ideas and learning by doing. I'm always curious about how technology can solve real problems and create meaningful impact.</p>
+            <dl class="stats">
+              <div class="stat"><dt class="pix">5+</dt><dd class="mono">PROJECTS</dd></div>
+              <div class="stat"><dt class="pix">3+</dt><dd class="mono">HACKATHONS</dd></div>
+              <div class="stat"><dt class="pix stat__inf">GDG</dt><dd class="mono">COMMUNITIES · EVENTS</dd></div>
+              <div class="stat"><dt class="pix">∞</dt><dd class="mono">CURIOSITY</dd></div>
+            </dl>
+          </div>
+          <ul class="idcards" data-reveal>
+            <li class="idcard">
+              <span class="idcard__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="13" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M7 9h6M7 12h4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><rect x="8" y="18" width="8" height="2.4" fill="currentColor"/></svg></span>
+              <span class="idcard__num mono">01</span>
+              <h3>CS &amp; AI Student</h3>
+              <p class="mono">NEWTON SCHOOL OF TECHNOLOGY<br/>&amp; RISHIHOOD UNIVERSITY</p>
+            </li>
+            <li class="idcard idcard--hot">
+              <span class="idcard__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3 4 7.5v9L12 21l8-4.5v-9L12 3Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M12 12 4 7.5M12 12l8-4.5M12 12v9" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span>
+              <span class="idcard__num mono">02</span>
+              <h3>Product Builder</h3>
+              <p class="mono">WEB APPS · HACKATHONS · COMMUNITIES</p>
+            </li>
+            <li class="idcard">
+              <span class="idcard__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 7.5v9M8.5 9.5c1-1 6-1 7 0M8.5 14.5c1 1 6 1 7 0" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></span>
+              <span class="idcard__num mono">03</span>
+              <h3>Always Learning</h3>
+              <p class="mono">BETTER TOOLS · BETTER IDEAS · BETTER ME</p>
+            </li>
           </ul>
         </div>
+        <figure class="portrait" data-reveal>
+          <img src="assets/portrait.jpg" alt="Adil Reyaz, photographed in monochrome" width="900" height="900" loading="lazy" decoding="async" />
+          <figcaption class="mono">ADIL.REYAZ — 2026 · EST. RISHIHOOD</figcaption>
+        </figure>
+        <p class="about__bubble mono" aria-hidden="true">Better ideas ahead...</p>
+        <svg class="about__dino" viewBox="0 0 40 30" aria-hidden="true"><use href="#px-dino"/></svg>
+      </div>
+    </section>
+
+    <!-- ═══════════ 03 · PROJECTS ═══════════ -->
+    <section class="sec projects" id="projects" aria-label="Projects">
+      <div class="container">
+        <header class="sec-head sec-head--row" data-reveal>
+          <div>
+            <p class="kicker mono">02. PROJECTS</p>
+            <h2 class="sec-title">Things I Build<span class="tld">_</span></h2>
+            <p class="sec-sub">A collection of projects where I learned, experimented<br/>and turned ideas into reality.</p>
+          </div>
+          <a class="btn btn--ghost btn--sm" href="https://github.com/ARRAEYY" target="_blank" rel="noopener">View All Projects
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m0 0-5.5-5.5M19 12l-5.5 5.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </header>
+
+        <div class="filters mono" data-reveal role="tablist" aria-label="Filter projects">
+          <button class="filter is-active" data-filter="all" role="tab" aria-selected="true">All</button>
+          <button class="filter" data-filter="web" role="tab" aria-selected="false">Web Apps</button>
+          <button class="filter" data-filter="hack" role="tab" aria-selected="false">Hackathons</button>
+          <button class="filter" data-filter="comm" role="tab" aria-selected="false">Communities</button>
+        </div>
+
+        <div class="projects__grid" id="projectsGrid">
+          <article class="project" data-cat="web" data-reveal>
+            <div class="project__display">
+              <i class="project__scan" aria-hidden="true"></i>
+              <img src="assets/shot-nosh.jpg" alt="Nosh — student login screen of the campus food ordering platform" width="1200" height="750" loading="lazy" decoding="async" />
+            </div>
+            <div class="project__head">
+              <span class="project__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 2v6a5 5 0 0 0 10 0V2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M7 5h10M12 13v7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M8.5 20h7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span>
+              <h3>Nosh</h3>
+              <span class="project__year mono">WEB APP</span>
+            </div>
+            <p class="project__desc">Campus food ordering platform for students and outlets — preorder meals, skip the queue and pick up when it's ready, with realtime order tracking.</p>
+            <p class="project__case"><b class="mono">PROBLEM</b> Outlet queues waste 20+ minutes per student every day.</p>
+            <p class="project__case"><b class="mono">SOLUTION</b> Prepaid ordering, live order states and outlet dashboards on one realtime system.</p>
+            <ul class="tags mono" aria-label="Technology">
+              <li>React</li><li>Node.js</li><li>Prisma</li><li>Socket.IO</li><li>PostgreSQL</li>
+            </ul>
+            <div class="project__links">
+              <a class="arrow-link mono" href="https://github.com/ARRAEYY/Inovix" target="_blank" rel="noopener">VIEW PROJECT
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m0 0-5.5-5.5M19 12l-5.5 5.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            </div>
+          </article>
+
+          <article class="project" data-cat="web comm" data-reveal>
+            <div class="project__display">
+              <i class="project__scan" aria-hidden="true"></i>
+              <img src="assets/shot-sangam.jpg" alt="Sangam — landing page reading Where campus ideas find their people" width="1200" height="750" loading="lazy" decoding="async" />
+            </div>
+            <div class="project__head">
+              <span class="project__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="8" cy="8" r="3" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="16.5" cy="9.5" r="2.4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3 19c.6-3 2.6-4.5 5-4.5s4.4 1.5 5 4.5M14.5 14.6c2 .2 3.6 1.5 4.2 3.9" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span>
+              <h3>Sangam</h3>
+              <span class="project__year mono">2025 — LIVE</span>
+            </div>
+            <p class="project__desc">Platform connecting students, organizations and opportunities — discover talent, pitch projects, form teams and track milestones in one place.</p>
+            <p class="project__case"><b class="mono">PROBLEM</b> Campus collaboration dies in scattered group chats.</p>
+            <p class="project__case"><b class="mono">SOLUTION</b> A professional network for the university ecosystem — skills, projects, applications, milestones.</p>
+            <ul class="tags mono" aria-label="Technology">
+              <li>React</li><li>Express</li><li>PostgreSQL</li><li>OAuth</li>
+            </ul>
+            <div class="project__links">
+              <a class="arrow-link mono" href="https://sangam-wheat.vercel.app" target="_blank" rel="noopener">LIVE APP
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m0 0-5.5-5.5M19 12l-5.5 5.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+              <a class="arrow-link arrow-link--dim mono" href="https://github.com/ARRAEYY" target="_blank" rel="noopener">GITHUB</a>
+            </div>
+          </article>
+
+          <article class="project" data-cat="hack comm" data-reveal>
+            <div class="project__display project__display--vv">
+              <i class="project__scan" aria-hidden="true"></i>
+              <img src="assets/shot-vortex.jpg" alt="Visual Vortex 2.0 — official event poster, 17th–18th January 2026" width="1200" height="750" loading="lazy" decoding="async" />
+            </div>
+            <div class="project__head">
+              <span class="project__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3c4 4.5 6.5 7.5 6.5 11a6.5 6.5 0 0 1-13 0C5.5 10.5 8 7.5 12 3Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M12 8v8M9.5 11.5 12 14l2.5-2.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+              <h3>Visual Vortex 2.0</h3>
+              <span class="project__year mono">JAN 2026</span>
+            </div>
+            <p class="project__desc">Hackathon platform by GDG on Campus with 200+ participants — the flagship 36-hour build sprint I'm organizing with the core team.</p>
+            <p class="project__case"><b class="mono">ROLE</b> Core team — tracks, judging flow and the participant journey.</p>
+            <p class="project__case"><b class="mono">OUTCOME</b> 200+ builders expected across 3 tracks on 17–18 Jan 2026.</p>
+            <ul class="tags mono" aria-label="Technology">
+              <li>React</li><li>Tailwind</li><li>Vercel</li>
+            </ul>
+            <div class="project__links">
+              <a class="arrow-link mono" href="#experience">THE STORY
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m0 0-5.5-5.5M19 12l-5.5 5.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            </div>
+          </article>
+        </div>
+        <p class="projects__empty mono" id="projectsEmpty" hidden>NOTHING IN THIS ORBIT YET — CHECK THE OTHER TAGS.</p>
+        <svg class="projects__dino" viewBox="0 0 40 30" aria-hidden="true"><use href="#px-dino"/></svg>
+      </div>
+    </section>
+
+    <!-- ═══════════ 04 · SKILLS & JOURNEY ═══════════ -->
+    <section class="sec journey" id="journey" aria-label="Skills and journey">
+      <div class="container">
+        <header class="sec-head" data-reveal>
+          <p class="kicker mono">03. SKILLS &amp; JOURNEY</p>
+          <h2 class="sec-title">Learning. Building. Growing.</h2>
+        </header>
+
+        <div class="journey__grid" data-reveal>
+          <div class="panel journey__panel">
+            <div class="tabs mono" role="tablist" aria-label="Skills panels">
+              <button class="tab is-active" id="tab-skills" data-tab="skills" role="tab" aria-selected="true" aria-controls="panel-skills">Skills</button>
+              <button class="tab" id="tab-timeline" data-tab="timeline" role="tab" aria-selected="false" aria-controls="panel-timeline">Timeline</button>
+              <button class="tab" id="tab-interests" data-tab="interests" role="tab" aria-selected="false" aria-controls="panel-interests">Interests</button>
+            </div>
+
+            <div class="tabpane is-active" id="panel-skills" role="tabpanel" aria-labelledby="tab-skills">
+              <div class="skillgroup">
+                <h3 class="mono">FRONTEND</h3>
+                <ul class="skills">
+                  <li><i class="sk-ic" style="--c:#61dafb"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="2" fill="currentColor"/><g fill="none" stroke="currentColor" stroke-width="1.4"><ellipse cx="12" cy="12" rx="10" ry="4"/><ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(60 12 12)"/><ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(120 12 12)"/></g></svg></i>React</li>
+                  <li><i class="sk-ic" style="--c:#f7df1e"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M9 8v6.5c0 1.4-.8 2-2 2M13.5 15.2c.5 1 1.4 1.4 2.6 1.4 1.6 0 2.6-.8 2.6-2.1 0-2.9-4.9-2-4.9-4.7 0-1.2 1-2 2.4-2 1.1 0 1.9.4 2.4 1.1" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></i>JavaScript</li>
+                  <li><i class="sk-ic" style="--c:#38bdf8"><svg viewBox="0 0 24 24"><path d="M7.5 7.5C4.7 7.5 3 9 2.4 11.6c1-1.3 2.2-1.8 3.5-1.5.8.2 1.3.8 1.9 1.5 1 1.1 2.2 2.3 4.6 2.3 2.7 0 4.4-1.3 5.1-3.8-1 1.3-2.2 1.8-3.5 1.5-.8-.2-1.3-.8-1.9-1.5-1-1.1-2.2-2.3-4.6-2.3Zm9 4.4c-2.2 0-3.5 1.1-4.1 2.9.8-1 1.7-1.4 2.7-1.2.6.2 1 .6 1.5 1.1.8.9 1.7 1.8 3.5 1.8 2.1 0 3.4-1 4-3-1 1-2.2 1.4-3.4 1.1-.6-.1-1-.5-1.5-1.1-.8-.9-1.6-1.7-2.7-1.6Z"/></svg></i>Tailwind CSS</li>
+                  <li><i class="sk-ic" style="--c:#e8622d"><svg viewBox="0 0 24 24"><path d="M4.5 3h15L18 19.5 12 21.5 6 19.5Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M16 7H8.2l.3 3.4h7.2l-.5 5-3 1-3-1-.2-2" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></i>HTML</li>
+                  <li><i class="sk-ic" style="--c:#4aa3e0"><svg viewBox="0 0 24 24"><path d="M4.5 3h15L18 19.5 12 21.5 6 19.5Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M16 7H8.2l.3 3.4h7.2l-.3 3.2-2.7 1-2.7-1" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></i>CSS</li>
+                </ul>
+              </div>
+              <div class="skillgroup">
+                <h3 class="mono">BACKEND</h3>
+                <ul class="skills">
+                  <li><i class="sk-ic" style="--c:#5fa04e"><svg viewBox="0 0 24 24"><path d="M12 2.5 4 6.8v8.4l3 1.7v-8L12 6l5 2.9v8l-4.5 2.6v-3.2l2.4-1.4V8.9L12 7.1 7.5 9.6v7.3L12 19.5l8-4.3V6.8Z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg></i>Node.js</li>
+                  <li><i class="sk-ic sk-ic--txt mono">EX</i>Express</li>
+                  <li><i class="sk-ic" style="--c:#699eca"><svg viewBox="0 0 24 24"><path d="M12 3c-4.4 0-7 1.6-7 3.8 0 1.5 1 7.4 1.6 9.2.5 1.6 2 4 3.4 4 .9 0 1.3-.6 2-1.4.6.8 1.1 1.4 2 1.4 1.4 0 2.9-2.4 3.4-4 .6-1.8 1.6-7.7 1.6-9.2C19 4.6 16.4 3 12 3Z" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M9.5 6.5c-1.2.6-1.8 1.5-1.8 2.7M14.5 6.5c1.2.6 1.8 1.5 1.8 2.7M12 10v8" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg></i>PostgreSQL</li>
+                  <li><i class="sk-ic sk-ic--txt mono">LITE</i>SQLite</li>
+                  <li><i class="sk-ic sk-ic--txt mono">SEQ</i>Sequelize</li>
+                </ul>
+              </div>
+              <div class="skillgroup">
+                <h3 class="mono">TOOLS</h3>
+                <ul class="skills">
+                  <li><i class="sk-ic" style="--c:#f0533a"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="3" transform="rotate(45 12 12)" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 8v8M9.5 10.5c0-1.4 5-1.4 5 0M9.5 13.5c0 1.4 5 1.4 5 0" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg></i>Git</li>
+                  <li><i class="sk-ic" style="--c:#e6e6e3"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 1.8a10.2 10.2 0 0 0-3.2 19.9c.5.1.7-.2.7-.5v-1.8c-2.9.6-3.5-1.2-3.5-1.2-.4-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.6 1.1 1.6 1.1.9 1.6 2.4 1.1 3 .9.1-.7.4-1.1.6-1.4-2.3-.3-4.7-1.2-4.7-5.1 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.7 0 0 .9-.3 2.8 1a9.7 9.7 0 0 1 5.2 0c1.9-1.3 2.8-1 2.8-1 .5 1.4.2 2.4.1 2.7.7.7 1 1.6 1 2.7 0 3.9-2.4 4.8-4.7 5.1.4.3.7 1 .7 2v3c0 .3.2.6.7.5A10.2 10.2 0 0 0 12 1.8Z"/></svg></i>GitHub</li>
+                  <li><i class="sk-ic" style="--c:#fff"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 4.5 20 19h-4.2L12 11.2 8.2 19H4Z"/></svg></i>Vercel</li>
+                  <li><i class="sk-ic" style="--c:#a259ff"><svg viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="14.5" cy="5" r="2.6"/><circle cx="14.5" cy="12" r="2.6"/><path d="M9.5 3.5H7a2.7 2.7 0 0 0 0 5.4h2.5ZM9.5 9.3H7a2.7 2.7 0 0 0 0 5.4h2.5ZM9.5 15.1H7A2.7 2.7 0 1 0 9.5 17.8Z"/><path d="M9.5 3.5v11.6" stroke-linecap="round"/></g><circle cx="14.6" cy="18.7" r="2.4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></i>Figma</li>
+                  <li><i class="sk-ic" style="--c:#ff6c37"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.6" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M8 13.5c2-.5 4.5-2.3 5.6-4.4.6.9 1.7 1.3 2.6.9M9 15.5l5.5-6" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg></i>Postman</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="tabpane" id="panel-interests" role="tabpanel" aria-labelledby="tab-interests" hidden>
+              <div class="skillgroup">
+                <h3 class="mono">CONCEPTUAL</h3>
+                <ul class="skills skills--concepts">
+                  <li><i class="sk-ic sk-ic--txt mono">DSA</i>DSA</li>
+                  <li><i class="sk-ic sk-ic--txt mono">PS</i>Problem Solving</li>
+                  <li><i class="sk-ic sk-ic--txt mono">SD</i>System Design</li>
+                  <li><i class="sk-ic sk-ic--txt mono">LD</i>Leadership</li>
+                </ul>
+              </div>
+              <div class="skillgroup">
+                <h3 class="mono">CURRENTLY INTO</h3>
+                <ul class="interests mono">
+                  <li>AI-NATIVE PRODUCTS</li>
+                  <li>DESIGN SYSTEMS</li>
+                  <li>REAL-TIME SYSTEMS</li>
+                  <li>OPEN SOURCE</li>
+                  <li>STARTUP CRAFT</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="tabpane" id="panel-timeline" role="tabpanel" aria-labelledby="tab-timeline" hidden>
+              <p class="mono tabpane__note">THE FULL TIMELINE IS ON THE RIGHT — ON MOBILE IT SITS RIGHT BELOW THIS PANEL.</p>
+            </div>
+          </div>
+
+          <aside class="panel timeline" data-reveal>
+            <div class="tl-line" aria-hidden="true"></div>
+            <ol class="tl">
+              <li class="tl__item is-now">
+                <span class="tl__node" aria-hidden="true"></span>
+                <span class="tl__year mono">2026 · PRESENT</span>
+                <h3>Building &amp; Exploring</h3>
+                <p>Working on Nosh, Sangam and new ideas.</p>
+              </li>
+              <li class="tl__item">
+                <span class="tl__node" aria-hidden="true"></span>
+                <span class="tl__year mono">2025</span>
+                <h3>GDG on Campus</h3>
+                <p>Organizing events, communities and Visual Vortex.</p>
+              </li>
+              <li class="tl__item">
+                <span class="tl__node" aria-hidden="true"></span>
+                <span class="tl__year mono">2024</span>
+                <h3>Learning &amp; Experimenting</h3>
+                <p>Exploring web development, DSA and product building.</p>
+              </li>
+              <li class="tl__item">
+                <span class="tl__node" aria-hidden="true"></span>
+                <span class="tl__year mono">2023</span>
+                <h3>The Beginning</h3>
+                <p>Curiosity, a laptop and a lot of questions.</p>
+              </li>
+            </ol>
+            <svg class="timeline__dino" viewBox="0 0 40 30" aria-hidden="true"><use href="#px-dino-walk"/></svg>
+            <p class="timeline__bubble mono" aria-hidden="true">Progress looks<br/>better in motion.</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ 05 · EXPERIENCE ═══════════ -->
+    <section class="sec xp" id="experience" aria-label="Experience and leadership">
+      <div class="container">
+        <header class="sec-head" data-reveal>
+          <p class="kicker mono">04. EXPERIENCE</p>
+          <h2 class="sec-title">Communities.<br/>Projects. Impact.</h2>
+        </header>
+
+        <div class="xp__rail" aria-hidden="true"><i></i></div>
+        <div class="xp__grid" data-reveal>
+          <article class="xpcard">
+            <span class="xpcard__node" aria-hidden="true"></span>
+            <header>
+              <span class="xpcard__logo" aria-hidden="true"><svg viewBox="0 0 24 24"><path fill="#4285f4" d="M21.6 12.2c0-.7-.1-1.4-.2-2H12v3.9h5.4a4.6 4.6 0 0 1-2 3v2.5h3.2c1.9-1.7 3-4.3 3-7.4Z"/><path fill="#34a853" d="M12 22c2.7 0 5-.9 6.6-2.4l-3.2-2.5c-.9.6-2 1-3.4 1-2.6 0-4.8-1.8-5.6-4.1H3.1v2.6A10 10 0 0 0 12 22Z"/><path fill="#fbbc05" d="M6.4 14c-.2-.6-.3-1.3-.3-2s.1-1.4.3-2V7.4H3.1a10 10 0 0 0 0 9.2L6.4 14Z"/><path fill="#ea4335" d="M12 6c1.5 0 2.8.5 3.8 1.5l2.9-2.9A10 10 0 0 0 3.1 7.4L6.4 10C7.2 7.8 9.4 6 12 6Z"/></svg></span>
+              <div><h3>GDG on Campus</h3><p class="mono">RISHIHOOD UNIVERSITY</p></div>
+              <span class="xpcard__role mono">ORGANIZER</span>
+            </header>
+            <span class="xpcard__date mono">2025 — PRESENT</span>
+            <p>Organizing events, hackathons and building a strong developer community at Rishihood University.</p>
+            <p class="xpcard__impact mono"><b>IMPACT</b> WORKSHOPS · COMMUNITY OF BUILDERS · CAMPUS REACH</p>
+          </article>
+
+          <article class="xpcard">
+            <span class="xpcard__node" aria-hidden="true"></span>
+            <header>
+              <span class="xpcard__logo xpcard__logo--vv" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3c4 4.5 6.5 7.5 6.5 11a6.5 6.5 0 0 1-13 0C5.5 10.5 8 7.5 12 3Z" fill="#B10035"/></svg></span>
+              <div><h3>Visual Vortex 2.0</h3><p class="mono">FLAGSHIP HACKATHON · 17–18 JAN</p></div>
+              <span class="xpcard__role mono">CORE TEAM</span>
+            </header>
+            <span class="xpcard__date mono">2025 — 2026</span>
+            <p>Leading the flagship hackathon with 200+ expected participants — tracks, judging flow and the participant journey.</p>
+            <p class="xpcard__impact mono"><b>IMPACT</b> 200+ BUILDERS · 3 TRACKS · 36 HOURS</p>
+          </article>
+
+          <article class="xpcard">
+            <span class="xpcard__node" aria-hidden="true"></span>
+            <header>
+              <span class="xpcard__logo" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" fill="none" stroke="#3fb988" stroke-width="1.8"/><circle cx="12" cy="12" r="3.2" fill="none" stroke="#3fb988" stroke-width="1.8"/><path d="M12 3.5v3M12 17.5v3M3.5 12h3M17.5 12h3" stroke="#3fb988" stroke-width="1.8" stroke-linecap="round"/></svg></span>
+              <div><h3>Sangam</h3><p class="mono">CAMPUS NETWORK PLATFORM</p></div>
+              <span class="xpcard__role mono">BUILDER</span>
+            </header>
+            <span class="xpcard__date mono">2025 — PRESENT</span>
+            <p>Building a platform to connect students, organizations and real startups — discover, connect, collaborate.</p>
+            <p class="xpcard__impact mono"><b>IMPACT</b> LIVE AT SANGAM-WHEAT.VERCEL.APP</p>
+          </article>
+        </div>
+
+        <!-- real photography, editorial frames -->
+        <div class="events" data-reveal>
+          <p class="events__label mono">FROM THE FIELD — GDG RISHIHOOD</p>
+          <figure class="polaroid">
+            <img src="assets/event-vision.jpg" alt="GDG Rishihood community during Vision Week on campus" loading="lazy" decoding="async" />
+            <figcaption class="mono">VISION WEEK — RISHIHOOD CAMPUS</figcaption>
+          </figure>
+          <p class="events__note">The community behind the projects — workshops, events and the people who show up.</p>
+          <figure class="polaroid polaroid--tilt2">
+            <img src="assets/event-ideaverse.jpg" alt="Ideaverse event session with GDG members" loading="lazy" decoding="async" />
+            <figcaption class="mono">IDEAVERSE — IDEATION SESSION</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ 06 · RESUME ═══════════ -->
+    <section class="sec resume" id="resume" aria-label="Resume">
+      <div class="container resume__grid">
+        <div class="resume__copy" data-reveal>
+          <p class="kicker mono">05. RESUME</p>
+          <h2 class="sec-title">Want to see<br/>the full story?</h2>
+          <p class="resume__sub">Education, projects, skills and communities — condensed into one page.</p>
+          <div class="resume__cta">
+            <a class="btn btn--solid" href="assets/resume-example.pdf" target="_blank" rel="noopener">Preview Resume
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h4.5a1.5 1.5 0 0 1 1.5 1.5V20a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 4 20V4a1.5 1.5 0 0 1 1.5-1.5H10M8 12h8M8 16h5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            <a class="btn btn--ghost" href="assets/resume-example.pdf" download="Adil-Reyaz-Resume.pdf">Download PDF</a>
+          </div>
+        </div>
+        <a class="resumedoc" data-reveal href="assets/resume-example.pdf" target="_blank" rel="noopener" aria-label="Open resume PDF">
+          <img src="assets/resume-thumb.jpg" alt="Preview of Adil Reyaz's resume" width="600" height="779" loading="lazy" decoding="async" />
+        </a>
+      </div>
+    </section>
+
+    <!-- ═══════════ 07 · CONTACT ═══════════ -->
+    <section class="sec contact" id="contact" aria-label="Contact">
+      <div class="container contact__grid">
+        <div class="contact__copy" data-reveal>
+          <p class="kicker mono">06. GET IN TOUCH</p>
+          <h2 class="sec-title">Let's Build Something<br/>Meaningful.</h2>
+          <p class="contact__body">I'm always open to new opportunities, collaborations or just a good conversation about ideas, technology and the future.</p>
+          <div class="contact__cta">
+            <a class="btn btn--ghost" href="https://www.linkedin.com/in/adil-reyaz-27829437a/" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13Zm1.78 13.02H3.56V9h3.56v11.45Z"/></svg>
+              LinkedIn</a>
+            <a class="btn btn--ghost" href="https://github.com/ARRAEYY" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 1.8a10.2 10.2 0 0 0-3.2 19.9c.5.1.7-.2.7-.5v-1.8c-2.9.6-3.5-1.2-3.5-1.2-.4-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.6 1.1 1.6 1.1.9 1.6 2.4 1.1 3 .9.1-.7.4-1.1.6-1.4-2.3-.3-4.7-1.2-4.7-5.1 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.7 0 0 .9-.3 2.8 1a9.7 9.7 0 0 1 5.2 0c1.9-1.3 2.8-1 2.8-1 .5 1.4.2 2.4.1 2.7.7.7 1 1.6 1 2.7 0 3.9-2.4 4.8-4.7 5.1.4.3.7 1 .7 2v3c0 .3.2.6.7.5A10.2 10.2 0 0 0 12 1.8Z"/></svg>
+              GitHub</a>
+            <a class="btn btn--ghost" href="mailto:adil.r25025@nst.rishihood.edu.in">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m4.5 7.5 7.5 5.5 7.5-5.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Email</a>
+          </div>
+        </div>
+        <div class="contact__scene" aria-hidden="true">
+          <p class="contact__bubble mono">Good ideas<br/>go further together.</p>
+          <div class="contact__dino">
+            <svg class="dino-reflect" viewBox="0 0 40 30" aria-hidden="true"><use href="#px-dino-walk"/></svg>
+            <i class="dino-shadow" aria-hidden="true"></i>
+            <svg class="contact__dino-svg" viewBox="0 0 40 30"><use href="#px-dino-walk"/></svg>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ═══════════ FOOTER ═══════════ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <p class="pix footer__brand">ADIL REYAZ<span class="hero__underscore">_</span></p>
+        <p class="footer__phrase mono">CODE. LEARN. BUILD. REPEAT.</p>
+      </div>
+      <nav class="footer__links mono" aria-label="Footer">
+        <a href="https://www.linkedin.com/in/adil-reyaz-27829437a/" target="_blank" rel="noopener">LINKEDIN</a>
+        <a href="https://github.com/ARRAEYY" target="_blank" rel="noopener">GITHUB</a>
+        <a href="mailto:adil.r25025@nst.rishihood.edu.in">EMAIL</a>
       </nav>
-      <p>Copyright &#169; 2026 Adil Reyaz. All Rights Reserved.</p>
-    </footer>
-    <script src="script.js"></script>
-  </body>
+      <p class="footer__copy mono">© <span id="year">2026</span> ADIL REYAZ</p>
+    </div>
+    <svg class="footer__walker" viewBox="0 0 40 30" aria-hidden="true"><use href="#px-dino-walk"/></svg>
+  </footer>
+
+  <script src="js/app.js" defer></script>
+</body>
 </html>
